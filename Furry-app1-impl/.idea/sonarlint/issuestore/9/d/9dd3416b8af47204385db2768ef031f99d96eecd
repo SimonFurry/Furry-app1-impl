@@ -1,0 +1,8 @@
+
+L
+java:S1172"/Remove this unused method parameter "openList".(À°éö8§¹ì–Ï/
+Z	java:S106	"9Replace this use of System.out or System.err by a logger.(ùÄûšşÿÿÿÿ8©¹ì–Ï/
+O
+java:S1128"-Remove this unused import 'javafx.fxml.FXML'.(ÃÚ¢„şÿÿÿÿ8åÃë–Ï/
+Y
+java:S1128"7Remove this unused import 'javafx.scene.control.Label'.(ö²­ÿÿÿÿÿ8åÃë–Ï/
