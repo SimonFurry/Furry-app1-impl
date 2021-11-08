@@ -1,0 +1,46 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+
+class toDoListApplication {
+Launch sequence
+Initial .fxml "MainMenu.fxml"
+initiate title for toDoListApplication
+}
+
+class Controller{
+Controller = brains
+
+}
+
+class Items{
+provide framework for tableView of loadList
+initiates
+- itemDesc
+- itemDate
+moves these to tableView
+}
+
+class List{
+Provide button functionality for :
+- addList
+- removeList
+- editList
+- loadList
+}
+
+class Table{
+list opens to items table
+- addItem
+- removeItem
+- saveList
+}
+
+toDoListApplication -> Controller
+Controller ..> Items
+Controller ..> Table
+Controller <.> List
+
+Items .> Table
+
+@enduml
